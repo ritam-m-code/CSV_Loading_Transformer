@@ -1,7 +1,7 @@
 import torch
 import torch.nn as nn
 import torch.optim as optim
-from main import TimeSeriesTransformer  # your model class
+from workingMain import TimeSeriesTransformer  # your model class
 
 # Dummy dataset example (replace with your real DataLoader)
 class DummyDataset(torch.utils.data.Dataset):
