@@ -17,7 +17,7 @@ class DummyDataset(torch.utils.data.Dataset):
 
 def train_model():
     model = TimeSeriesTransformer(
-        num_features=5,
+        num_features=3,
         input_window=50,
         output_window=10,
         d_model=128,
